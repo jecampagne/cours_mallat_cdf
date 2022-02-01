@@ -16,9 +16,10 @@ Pour tourner sur GPU cela dépend de la version de CUDA, voir https://github.com
 
 # Docs des packages
 - JAX: https://jax.readthedocs.io
-- matplotlib : https://matplotlib.org/stable/index.html
-- Numpy : https://numpy.org/doc/stable/reference/index.html
 - PyTorch: https://pytorch.org/docs/stable/index.html
+- scikit-learn = https://scikit-learn.org/stable/index.html
+- matplotlib : https://matplotlib.org/stable/index.html
+- numpy : https://numpy.org/doc/stable/reference/index.html
 
 # Autres
 - Anaconda : https://docs.anaconda.com/anaconda/install/index.html
