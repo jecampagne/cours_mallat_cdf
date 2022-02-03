@@ -10,13 +10,30 @@ conda create --name myenv python=3.8
 conda activate myenv
 ```
 
-Ensuite, pour une installation pour tourner sur un CPU
+Ensuite, pour une installation en vu d'utiliser le nb `classif_simple_JAX.ipynb` (tourner sur un CPU) 
 ```python
 pip install -U "jax[cpu]"
 pip install -U scikit-learn
 pip install -U matplotlib
 pip install -U torch torchvision
 ```
+
+o `Jax` est une library d'auto-differentation et acceleration de code tres "nympy-like"
+o `scikit-learn` est une library generaliste d'outils ML
+o `torch`/`Pytorch`  est une library dediee aux reseaux de neurones mais ici on utilise uniquement quelques outils. 
+
+Pour le nb `fisher-mtx.ipynb` il faudra en plus installer
+```python
+pip install -U numpyro
+pip install -U arviz
+pip install -U corner
+```
+o `numpyro`est une librairy "Probabilistic programming with NumPy" via Jax.
+C'est la nouvelle version de `Pyro` en Jax. 
+o `arviz` est une librairy de presentation de resultats (ex. contour plots) de génération de chaine de Markov.
+
+
+
 Pour tourner sur GPU cela dépend de la version de CUDA, voir https://github.com/google/jax#installation
 
 # Docs des packages
@@ -25,6 +42,8 @@ Pour tourner sur GPU cela dépend de la version de CUDA, voir https://github.com
 - scikit-learn = https://scikit-learn.org/stable/index.html
 - matplotlib : https://matplotlib.org/stable/index.html
 - numpy : https://numpy.org/doc/stable/reference/index.html
+- Numpyro : https://num.pyro.ai/en/stable/getting_started.html#what-is-numpyro
+- arviz : https://arviz-devs.github.io/arviz/index.html
 
 # Autres
 - Anaconda : https://docs.anaconda.com/anaconda/install/index.html
