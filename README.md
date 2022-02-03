@@ -12,11 +12,9 @@ conda activate myenv
 
 Ensuite, pour une installation pour tourner sur un CPU
 ```python
-pip install -U pip
 pip install -U "jax[cpu]"
 pip install -U scikit-learn
 pip install -U matplotlib
-pip install -U numpy
 pip install -U torch torchvision
 ```
 Pour tourner sur GPU cela dépend de la version de CUDA, voir https://github.com/google/jax#installation
