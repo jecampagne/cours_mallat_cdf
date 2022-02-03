@@ -18,9 +18,9 @@ pip install -U matplotlib
 pip install -U torch torchvision
 ```
 
-o `Jax` est une library d'auto-differentation et acceleration de code tres "nympy-like"
-o `scikit-learn` est une library generaliste d'outils ML
-o `torch`/`Pytorch`  est une library dediee aux reseaux de neurones mais ici on utilise uniquement quelques outils. 
+- `Jax` est une library d'auto-differentation et acceleration de code tres "nympy-like"
+- `scikit-learn` est une library generaliste d'outils ML
+- `torch`/`Pytorch`  est une library dediee aux reseaux de neurones mais ici on utilise uniquement quelques outils. 
 
 Pour le nb `fisher-mtx.ipynb` il faudra en plus installer
 ```python
@@ -28,9 +28,9 @@ pip install -U numpyro
 pip install -U arviz
 pip install -U corner
 ```
-o `numpyro`est une librairy "Probabilistic programming with NumPy" via Jax.
+- `numpyro`est une librairy "Probabilistic programming with NumPy" via Jax.
 C'est la nouvelle version de `Pyro` en Jax. 
-o `arviz` est une librairy de presentation de resultats (ex. contour plots) de génération de chaine de Markov.
+- `arviz` est une librairy de presentation de resultats (ex. contour plots) de génération de chaine de Markov.
 
 
 
