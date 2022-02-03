@@ -3,6 +3,13 @@ Il s'agit de(s) notebook(s) pour illustrer le cours de Stéphane Mallat du Coll�
 
 # Le comment
 Typiquement, il vous faut un environement `anaconda` avec `Python 3.8` 
+- installer anaconda
+- ensuite mieux vaut se faire un environement
+```python
+conda create --name myenv python=3.8
+conda activate myenv
+```
+
 Ensuite, pour une installation pour tourner sur un CPU
 ```python
 pip install -U pip
@@ -23,4 +30,5 @@ Pour tourner sur GPU cela dépend de la version de CUDA, voir https://github.com
 
 # Autres
 - Anaconda : https://docs.anaconda.com/anaconda/install/index.html
+- environement anaconda: https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands
 - PIP : https://docs.python.org/fr/3.8/installing/index.html#basic-usage
