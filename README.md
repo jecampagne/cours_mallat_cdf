@@ -25,6 +25,12 @@ pip install -U torch torchvision
 - `scikit-learn` est une library generaliste d'outils ML
 - `torch`/`Pytorch`  est une library dediee aux reseaux de neurones mais ici on utilise uniquement quelques outils. 
 
+Pour le nb `MLE_Fisher_Info_1D.ipynb` il faudra installer
+```python
+pip insatll -U jaxopt
+```
+qui est une librairie d'optimisation sans ou avec contrainte. 
+
 Pour le nb `fisher-mtx.ipynb` il faudra en plus installer
 ```python
 pip install -U numpyro
@@ -33,7 +39,7 @@ pip install -U corner
 ```
 - `numpyro`est une librairy "Probabilistic programming with NumPy" via Jax.
 C'est la nouvelle version de `Pyro` en Jax. 
-- `arviz` est une librairy de presentation de resultats (ex. contour plots) de génération de chaine de Markov.
+- `arviz` et `corner` sont des librairies de presentation de resultats (ex. contour plots) de génération de chaine de Markov.
 
 
 
