@@ -136,7 +136,6 @@ def plot_performance(train_loss, train_acc, test_acc,
     fig.tight_layout(rect=[0, 0.03, 1, 0.925])
 
 
-# +
 class Classif():
     """ Class to optimize a classifier """
     def __init__(self, clf, num_features, num_classes, batch_size):
@@ -151,7 +150,7 @@ class Classif():
         # Optimizer Adam for Gradient Descent
         self.opt_init, self.opt_update, self.get_params = optimizers.adam(1e-3)
 
-    
+    @functools.partial(jit, static_argnums=0)
     def loss(self, params, data, targets):
         """ loss - Sum_i y_i log(p_\theta(x_i)) """
         preds = self.apply_nn(params, data)
@@ -213,9 +212,6 @@ class Classif():
 
         return train_loss, log_acc_train, log_acc_test, params, params_init
 
-
-# -
-
 # ## Models:
 # - Simple model linéaire 
 # - Un Neural net à 1 couche cachée et un rectificateur comme non-linéairité
@@ -226,7 +222,7 @@ model = stax.serial(Dense(num_classes),
                       )
 clf = Classif(model, num_features=num_features, num_classes=num_classes, batch_size=batch_size)
 
-num_epochs=40
+num_epochs=20
 train_loss, log_acc_train, log_acc_test, params, params_init = \
         clf.run_training_loop(num_epochs, train_loader, test_loader)
 
