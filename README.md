@@ -7,6 +7,10 @@ On optimise le classifiocateur via une descente de gradient stochastique (ici Ad
 - `fisher-mtx.ipynb`: calcul dans un cas simple multi-dimensionel de la matrice de Fisher. Puis en utilsant une librairie de génération de chaine de Markov, on compare les contours à n-sigmas des proba a posteriori jointes entre 2 parametres avec ceux obtenus en utilisant la matrice de Fisher.
 - `Simple_huffman_code.ipynb`: une implemtation tres simple d'un code de Huffman quasi-optimal du point de vue de la borne de Shannon.
 - `Allocation_de_bits.ipynb`: un exemple d'allocation de bits avec un algorithme glouton
+- `image_compression.ipynb`: proposition de deux images classiques 512x512 de "lena" et "boat" pour effectuer des compressions de type JPEG et JPEG2000 à divers degré de compression (bit-per-pixel) et l'on mesure la qualité de restitution via le PSNR. 
+```diff
+- Pour le moment (fin mars 2022) le scaling PSNR(R) n'est pas celui attendu par la theorie pour R>1, ni en JPEG ni en JPEG2000. Nous n'avons pour le moment pas trouver la raison.
+```
 
 
 # Le comment
