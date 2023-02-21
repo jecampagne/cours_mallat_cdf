@@ -16,6 +16,7 @@ On optimise le classifiocateur via une descente de gradient stochastique (ici Ad
 # Année 2023:
 - `randomwalk.ipynb` : processus $X_{n+1} = \rho X_n + Z_{n+1}$ avec $Z_{n+1}$ une v.a $\{-1,+1\}$ (prob. 1/2) en 1D. Avec $\rho=1$ on obtient une marche aléatoire 
 - `urne_Ehrenfest.ipynb` : illustration du moèle de gaz parfait contunu dans  boite à 2 compartiments séparées par une paroi porreuse. Si $X_n$ représente le nombre de boules dans un compartiment, alors $X_{n+1} = X_n + Z_{n+1}$ avec $Z_{n+1}$ une v.a $\{-1,+1\}$ mais cette fois $P(Z_{n+1} = −1|X_n = x) = x/N$, donc ce n'est pas une marche aléatoire.
+- nb. le nb `cours2022/fisher-mtx.ipynb` comparent les contours de la posterior des paramatres issus de le matrice de  Fisher avec ceux obtenus en analysant la chaine de Markov d'un Monte Carlo Hamiltonien (cf. HMC voire NUTS aka No-U-Turns)  
 
 # Librairies
 - `Jax` est une library d'auto-differentation et acceleration de code tres "nympy-like"
