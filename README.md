@@ -15,14 +15,12 @@ On optimise le classifiocateur via une descente de gradient stochastique (ici Ad
 ```
 # Année 2023:
 - `randomwalk.ipynb` : processus $X_{n+1} = \rho X_n + Z_{n+1}$ avec $Z_{n+1}$ une v.a $\{-1,+1\}$ (prob. 1/2) en 1D. Avec $\rho=1$ on obtient une marche aléatoire 
-- `urne_Ehrenfest.ipynb` : illustration du moèle de gaz parfait contunu dans 2 boites séparées par une parois porreuse 
+- `urne_Ehrenfest.ipynb` : illustration du moèle de gaz parfait contunu dans  boite à 2 compartiments séparées par une paroi porreuse. Si $X_n$ représente le nombre de boules dans un compartiment, alors $X_{n+1} = X_n + Z_{n+1}$ avec $Z_{n+1}$ une v.a $\{-1,+1\}$ mais cette fois $P(Z_{n+1} = −1|X_n = x) = x/N$, donc ce n'est pas une marche aléatoire.
 
+# Librairies
 - `Jax` est une library d'auto-differentation et acceleration de code tres "nympy-like"
 - `scikit-learn` est une library generaliste d'outils ML
 - `torch`/`Pytorch`  est une library dediee aux reseaux de neurones mais ici on utilise uniquement quelques outils. 
-
-Pour le nb `MLE_Fisher_Info_1D.ipynb` on utilise `jaxopt`  une librairie d'optimisation écrite en JAX. 
-
 - `numpyro`est une librairy "Probabilistic programming with NumPy" via Jax.
 C'est la nouvelle version de `Pyro` en Jax. 
 - `arviz` et `corner` sont des librairies de presentation de resultats (ex. contour plots) de génération de chaine de Markov.
