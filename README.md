@@ -14,7 +14,8 @@ On optimise le classifiocateur via une descente de gradient stochastique (ici Ad
 - Pour le moment (fin mars 2022) le scaling PSNR(R) n'est pas celui attendu par la theorie pour R>1, ni en JPEG ni en JPEG2000. Nous n'avons pour le moment pas trouver la raison.
 ```
 # Année 2023:
-
+- `randomwalk.ipynb` : processus $X_{n+1} = \rho X_n + Z_{n+1}$ avec $Z_{n+1}$ une v.a $\{-1,+1\}$ (prob. 1/2) en 1D. Avec $\rho=1$ on obtient une marche aléatoire 
+- `urne_Ehrenfest.ipynb` : illustration du moèle de gaz parfait contunu dans 2 boites séparées par une parois porreuse 
 
 - `Jax` est une library d'auto-differentation et acceleration de code tres "nympy-like"
 - `scikit-learn` est une library generaliste d'outils ML
