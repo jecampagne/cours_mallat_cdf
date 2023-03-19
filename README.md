@@ -21,6 +21,7 @@ On optimise le classifiocateur via une descente de gradient stochastique (ici Ad
 - `Monte_Carlo_Sampling_2.ipynb` : dans la continuité du nb précédent, on utilise une librairie (Numpyro) pour effectuer de la production de MCMC efficace.
 - `gibbs_FFT.ipynb` : Phénomène de Gibbs par seuillage dans l'espace de Fourier
 - `morlet_wave_1D_2D.ipynb`: Représentation de l'ondelette de Morlet en 1D et 2D
+- `wavelet1D.ipynb` : Décomposition en ondelettes de signaux 1D et représentation scalogramme (ie. temps-échelle).
 
 # Librairies
 - `Jax` est une library d'auto-differentation et acceleration de code tres "nympy-like"
