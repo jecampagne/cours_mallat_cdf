@@ -23,6 +23,8 @@ On optimise le classifiocateur via une descente de gradient stochastique (ici Ad
 - `morlet_wave_1D_2D.ipynb`: Représentation de l'ondelette de Morlet en 1D et 2D
 - `wavelet1D.ipynb` : Décomposition en ondelettes de signaux 1D et représentation scalogramme (ie. temps-échelle).
 - `wavelet2D_sparsity.ipynb` : Décomposition en ondelettes d'une image et calcul de la sparsité des coefficients d'ondelettes.
+- `scattering2D.ipynb` : Example de Scattering transform 2D 
+
 
 # Librairies
 - `Jax` est une library d'auto-differentation et acceleration de code tres "nympy-like"
