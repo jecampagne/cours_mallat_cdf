@@ -35,6 +35,7 @@ On optimise le classifiocateur via une descente de gradient stochastique (ici Ad
 - `torch`/`Pytorch`  est une library dediee aux reseaux de neurones mais ici on utilise uniquement quelques outils. 
 - `numpyro`est une librairy "Probabilistic programming with NumPy" via Jax.
 C'est la nouvelle version de `Pyro` en Jax. 
+- `Kyamato` et `PyWavelets`, `ssqueezepy`: librairies pour traiter la transformée en Ondelettes
 - `arviz` et `corner` sont des librairies de presentation de resultats (ex. contour plots) de génération de chaine de Markov.
 
 # Docs des packages
@@ -45,3 +46,5 @@ C'est la nouvelle version de `Pyro` en Jax.
 - numpy : https://numpy.org/doc/stable/reference/index.html
 - Numpyro : https://num.pyro.ai/en/stable/getting_started.html#what-is-numpyro
 - arviz : https://arviz-devs.github.io/arviz/index.html
+- Kyamato : https://www.kymat.io/
+- PyWavelets : https://pywavelets.readthedocs.io
