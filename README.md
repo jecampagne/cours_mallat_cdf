@@ -25,8 +25,9 @@ On optimise le classifiocateur via une descente de gradient stochastique (ici Ad
 - `morlet_wave_1D_2D.ipynb`: Représentation de l'ondelette de Morlet en 1D et 2D
 - `wavelet1D.ipynb` : Décomposition en ondelettes de signaux 1D et représentation scalogramme (ie. temps-échelle).
 - `wavelet2D_sparsity.ipynb` : Décomposition en ondelettes d'une image et calcul de la sparsité des coefficients d'ondelettes.
-- `scattering1D.ipynd` : Example de Scattering transform sur un signal synthétisé 1D
+- `scattering1D.ipynb` : Example de Scattering transform sur un signal synthétisé 1D
 - `scattering2D.ipynb` : Example de Scattering transform 2D 
+- `gaussian_vs_turbulent_fow.ipynb` : A partir d'une image d'un flux turbulent, on construit un champ gaussien ayant le même spectre de puissance, et l'on compare visuellement les deux images: la géométrie des structures n'est pas préservée.
 
 
 # Librairies
