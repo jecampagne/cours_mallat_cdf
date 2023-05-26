@@ -28,6 +28,8 @@ On optimise le classifiocateur via une descente de gradient stochastique (ici Ad
 - `scattering1D.ipynb` : Example de Scattering transform sur un signal synthétisé 1D
 - `scattering2D.ipynb` : Example de Scattering transform 2D 
 - `gaussian_vs_turbulent_fow.ipynb` : A partir d'une image d'un flux turbulent, on construit un champ gaussien ayant le même spectre de puissance, et l'on compare visuellement les deux images: la géométrie des structures n'est pas préservée.
+-  `TextureSynthesis.ipynb` : Example de synthèses de champs et textures à parir d'une modélisation micro-canonique utilisant à base de Transformation de Scattering et les correlation entre échelles.
+-  `StatComponentSeparation.ipynb`: Example simple de séparation de composante (débruitage) utilsant une modélisation micro-canonique à base de Transformation de Scattering et les cross/auto-correlation entre échelles.
 
 
 # Librairies
