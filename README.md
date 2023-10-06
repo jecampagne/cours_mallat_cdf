@@ -1,6 +1,7 @@
 En 2022, afin d'illustrer le cours de [Stéphane Mallat du Collège de France](https://www.di.ens.fr/~mallat/CoursCollege.html) j'ai mis sur pieds ce petit repository que vous pouvez cloner/forker et me faire des retours.
 
 Le directory "**Notes**" contient les PDFs des notes de cours depuis l'année 2018 incluse.
+**Since 2023, this directory includes an english version of all the lectures since 2018.**
 
 La plus part des nbs sont jouables sur Google Colab.
 
