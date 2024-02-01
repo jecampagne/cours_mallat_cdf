@@ -11,6 +11,8 @@ de l'échantillonnage,
 `gaussian_vs_turbulent_fow.ipynb` montre les carences d'un modèle gaussien tandis que `TextureSynthesis.ipynb` montre des qualités de générations
 de champs non gaussiens par une modélisation micro-canonique.
 
+- `ScoreDiffusionGene.ipynb`: illustration **Score Based Diffusion model**. Usage d'une Stochastic Differential Equation (inversible) (**Ornstein-Uhlenbeck proces**s)  en mode Forward & Backward pour générer de nouveaux échantillons d'une pdf 1D cible en partant d'une distribution Normale.
+
 # Année 2023:
 Le nb de 2022 `fisher-mtx.ipynb` peut servir : il compare les contours de la posterior des paramatres issus de le matrice de  Fisher avec ceux obtenus en analysant la chaine de Markov d'un Monte Carlo Hamiltonien (cf. HMC voire NUTS aka No-U-Turns) 
 
