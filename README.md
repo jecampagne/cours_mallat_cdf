@@ -12,7 +12,8 @@ de l'échantillonnage,
 de champs non gaussiens par une modélisation micro-canonique.
 
 - `ScoreDiffusionGene.ipynb`: illustration **Score Based Diffusion model**. Usage d'une Stochastic Differential Equation (inversible) (**Ornstein-Uhlenbeck proces**s)  en mode Forward & Backward pour générer de nouveaux échantillons d'une pdf 1D cible en partant d'une distribution Normale.
-- `Ising2D_Metropolis.ipynb`: une petite implémentation de l'algorithme de Metropolis pour la génération de champ d'Ising 2D sur une grille $NxN$. On utilise des spins (0,1) codés sur des entiers non-signés de 32 bits pour générer 32 chaines de Markov en paralèlle. On obtient une courbe de la magnétisatiion moyenne en fonction de la température qui est assez proches de la théorie. On ne peut aller plus loin avec ce type d'algorithme. 
+- `Ising2D_Metropolis.ipynb`: une petite implémentation de l'algorithme de Metropolis pour la génération de champ d'Ising 2D sur une grille $NxN$. On utilise des spins (0,1) codés sur des entiers non-signés de 32 bits pour générer 32 chaines de Markov en paralèlle. On obtient une courbe de la magnétisatiion moyenne en fonction de la température qui est assez proches de la théorie. On ne peut aller plus loin avec ce type d'algorithme.
+- `Ising2D-Checkerboard-Flax.ipynb`: c'est une varaition sur le thème de la génération de réseau d'Ising 2D classique, en utilisation l'algorithme de Checkerboard en association avec celui de Metropolis. On utilise alors la convolution par un kernel qui reflète les interactions entre plus proches voisins du réseau. Tourner sur GPU/TPU est à envisager.
 
 # Année 2023:
 Le nb de 2022 `fisher-mtx.ipynb` peut servir : il compare les contours de la posterior des paramatres issus de le matrice de  Fisher avec ceux obtenus en analysant la chaine de Markov d'un Monte Carlo Hamiltonien (cf. HMC voire NUTS aka No-U-Turns) 
