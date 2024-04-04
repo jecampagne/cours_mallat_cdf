@@ -16,8 +16,8 @@ de champs non gaussiens par une modélisation micro-canonique.
 - `Ising2D-Checkerboard-Flax.ipynb`: c'est une variation sur le thème de la génération de réseau d'Ising 2D classique, en utilisation l'algorithme de Checkerboard en association avec celui de **Metropolis**. On utilise alors la convolution par un kernel qui reflète les interactions entre plus proches voisins du réseau. Tourner sur GPU est à envisager.
 - `jax_phi4_langevin.ipynb` : Génération de cartes 2D de champ pour un théorie  $\lambda \varphi^4$ en utilisant la résolution de l'**équation de Langevin** par une méthode itérative simple. Tourner sur CPU reste limité, GPU c'est mieux.
 - `jax_phi4_HMCsimple.ipynb` : Génération de cartes 2D de champ pour un théorie  $\lambda \varphi^4$  en utilisant une implémentation simple d'un Hamiltonian Monte Carlo.
-- `Ornstein_Uhlenbeck.ipynb`: exemple de processus 1D de Ornstein_Uhlenbeck $dX = \alpha\ (\mu - X)\ dt + \sigma\ dW$.
-- `Wavelet1DDenoising.ipynb`: exemple de débruitage d'un sigma 1D via "hard thresholding" sur les wavelet coefficients. Comparaison avec un débruitage par filtrage de Fourierr 
+- `Ornstein_Uhlenbeck.ipynb`: exemple de processus 1D de Ornstein_Uhlenbeck $dX = \alpha\ (\mu - X)\ dt + \sigma\ dW$
+- `Wavelet1DDenoising.ipynb`: exemple de débruitage d'un sigma 1D via "hard thresholding" sur les wavelet coefficients. Comparaison avec un débruitage par filtrage de Fourier 
 
 
 # Année 2023:
