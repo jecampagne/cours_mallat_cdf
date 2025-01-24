@@ -5,6 +5,15 @@ Le directory "**Notes**" contient les PDFs des notes de cours depuis l'année 20
 
 La plus part des nbs sont jouables sur Google Colab.
 
+# Année 2025:
+Un certain nombre de nb de 2024 sont dans le thème de cette année. Voici les nouveaux:
+
+- 1 note sur les réseaux de J HopField et les Boltzmann machines de G. Hinton (Nobel de Physique 2024)
+
+- `TensorFlow_bijector_1D_simple.ipynb`: illustration de Normalizing Flow (bijector) pour générer une distribution 1D (TensorFlow)
+- `JAX_FLows_MAF_NVP_simple.ipynb`: (JAX) Normalizing Flow génération of 2D distributions. 
+- `JAX_blob_GAN_vanilla.ipynb`: Mise en oeuvre d'un GAN simple et loss min-max (vanilla) pour générer une muli-gaussian 2D distribution. Selon le nombre de "blobs" le modele peut avoir des problèmes (mode collapses).
+
 # Année 2024:
 Un certain nombre de nb de 2023 sont dans le thème de cette année comme `Monte_Carlo_Sampling.ipynb` et `Monte_Carlo_Sampling_2.ipynb` traitent
 de l'échantillonnage, 
