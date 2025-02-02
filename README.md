@@ -9,10 +9,12 @@ La plus part des nbs sont jouables sur Google Colab.
 Un certain nombre de nb de 2024 sont dans le thème de cette année. Voici les nouveaux:
 
 - 1 note sur les réseaux de J HopField et les Boltzmann machines de G. Hinton (Nobel de Physique 2024)
+- 1 note sur les Normalizing Flows écrite (français) que j'ai écrit en 2022.
 
 - `TensorFlow_bijector_1D_simple.ipynb`: illustration de Normalizing Flow (bijector) pour générer une distribution 1D (TensorFlow)
 - `JAX_FLows_MAF_NVP_simple.ipynb`: (JAX) Normalizing Flow génération of 2D distributions. 
 - `JAX_blob_GAN_vanilla.ipynb`: Mise en oeuvre d'un GAN simple et loss min-max (vanilla) pour générer une muli-gaussian 2D distribution. Selon le nombre de "blobs" le modele peut avoir des problèmes (mode collapses).
+- `JAX_blob_GAN_Wasserstein_regul.ipynb`: (JAX) une implementation d'un GAN avec la fonction de coût de Wasserstein et une façon d'imposer le caractère Lipschitz du "critic" via une contrainte sur les gradients. 
 
 # Année 2024:
 Un certain nombre de nb de 2023 sont dans le thème de cette année comme `Monte_Carlo_Sampling.ipynb` et `Monte_Carlo_Sampling_2.ipynb` traitent
