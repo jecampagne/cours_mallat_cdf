@@ -70,9 +70,8 @@ En 2022, afin d'illustrer le cours de [Stéphane Mallat du Collège de France](h
 
 **La médaille d'or du CNRS en 2025 est décernée au professeur Stéphane Mallat** pour l'ensemble de ses travaux mondialement reconnus ([voir le communiqué du CNRS](https://www.cnrs.fr/fr/personne/stephane-mallat-0)) 
 
-En construction pour grand public: petits podcasts 
-[🎧 Lien entre Physique Stat et Apprentissage Profond (15min)](https://box.in2p3.fr/s/YZ4fKG8L3gys499)
-
+En construction pour le grand public: petit podcast audio généré par l'IA tout en étant validé par l'humain...
+[▶️ Lien entre Physique Stat et Apprentissage Profond (15min)](https://box.in2p3.fr/s/YZ4fKG8L3gys499)
 
 Voici la thématique des cours des différentes années:
 
