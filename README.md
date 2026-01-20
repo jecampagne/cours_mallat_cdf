@@ -9,6 +9,8 @@ In 2022, to illustrate the course of [Stéphane Mallat at Collège de France](ht
 
 The directory **Notes** includes an english (and french) version of all the lectures since 2018.
 
+Currently in development (For everyone): a short-form audio podcast created by AI and refined through human oversight for quality assurance.
+[▶️ Deep Learning Through the Lens of Statistical Mechanics (17min)](https://box.in2p3.fr/s/ePSb8eHyGpwE4wX)
 
 # Mathematical Foundations of Data Science and Artificial Intelligence
 
