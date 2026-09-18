@@ -23,6 +23,9 @@ The core of this research is to understand how to overcome the **curse of high d
 
 ---
 
+All lecture notes are in the **LectureNotes** directory.
+Most of the **notebooks** (see below the list in French) are ready to be run on Google Colab.
+
 ## Chronological Overview (2018–2025)
 
 ### 2018: The Curse of High Dimensionality
@@ -88,9 +91,9 @@ Voici la thématique des cours des différentes années:
 - **2019**: L’apprentissage par réseaux de neurones profonds
 - **2018**: L’apprentissage face à la malédiction de la grande dimension
 
-Le directory "**Notes**" contient les PDFs des notes de cours depuis l'année 2018 incluse (francais/anglais).
+Le directory "**LectureNotes**" contient les PDFs des notes de cours depuis l'année 2018 incluse (francais/anglais).
 
-La plus part des nbs sont jouables sur Google Colab.
+La plus part des **notebooks** sont jouables sur Google Colab.
 
 # Année 2025:
 Un certain nombre de nb de 2024 sont dans le thème de cette année. Voici les nouveaux:
