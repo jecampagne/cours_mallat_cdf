@@ -28,48 +28,48 @@ Most of the **notebooks** (see below the list in French) are ready to be run on 
 
 ## Chronological Overview (2018–2025)
 
-### 2018: The Curse of High Dimensionality
-*   **Theme:** Learning in the face of high-dimensional challenges.
-*   **Key Concepts:** Overfitting, Bias-Variance trade-off, and the necessity of **regularity** (Lipschitz).
-*   **Techniques:** Introduction to Harmonic Analysis (Fourier and Wavelet transforms) and kernel methods like **SVM**.
-
-### 2019: Deep Neural Networks – How and Why?
-*   **Theme:** Mathematical analysis of deep architectures.
-*   **Key Concepts:** The **Universal Approximation Theorem** and the role of **symmetries** (invariants) in "flattening" classification boundaries.
-*   **Optimization:** Backpropagation, Stochastic Gradient Descent (SGD), and non-convex landscapes.
-
-### 2020: Multiscale Models and CNNs
-*   **Theme:** Architectural organization of complexity.
-*   **Key Concepts:** **Scale separability** and the use of **Convolutional Neural Networks (CNNs)** to capture translation invariance.
-*   **Techniques:** Scattering Networks, which use fixed wavelet filters to prove stability against deformations.
-
-### 2021: Regularity, Approximation, and Sparsity (RAS)
-*   **Theme:** The **RAP/RAS Triangle**.
-*   **Key Concepts:** The interdependence between signal **Regularity**, low-dimensional **Approximation**, and **Sparse representations**.
-*   **Applications:** Non-linear approximations and image compression standards (JPEG, JPEG2000).
-
-### 2022: Information Theory
-*   **Theme:** Intrinsic information vs. parametric models.
-*   **Key Concepts:** **Fisher Information** (inference/likelihood) vs. **Shannon Entropy** (coding/compression).
-*   **Geometric Insight:** Data concentration in **typical sets**, which defines the minimum number of bits needed for encoding.
-
-### 2023: Statistical Physics and Modeling
-*   **Theme:** High-dimensional modeling through the lens of physics.
-*   **Key Concepts:** **Gibbs energy models**, maximum entropy principles, and **Markov fields**.
-*   **Advanced Topics:** Phase transitions, the Ising model, and the emergence of long-range correlations from local interactions.
-
-### 2024: Learning and Generation by Random Sampling
-*   **Theme:** Generative AI and modern sampling.
-*   **Key Concepts:** **Monte Carlo methods**, Langevin dynamics, and **Score Matching**.
-*   **Generative AI:** Introduction to **Score-Based Diffusion Models** (the math behind tools like GPT-4 and DALL-E).
+### 2027: Diffusion Models and Multi-Scale Approaches in Artificial Intelligence
 
 ### 2025: Transport and Denoising in AI
 *   **Theme:** Data generation as a probability transport problem.
 *   **Key Concepts:** **Optimal Transport**.
 *   **Denoising Optimality:** Proving that architectures like **U-Net** act as optimal denoisers that learn geometry-adaptive harmonic bases.
 
+### 2024: Learning and Generation by Random Sampling
+*   **Theme:** Generative AI and modern sampling.
+*   **Key Concepts:** **Monte Carlo methods**, Langevin dynamics, and **Score Matching**.
+*   **Generative AI:** Introduction to **Score-Based Diffusion Models** (the math behind tools like GPT-4 and DALL-E).
 
+### 2023: Statistical Physics and Modeling
+*   **Theme:** High-dimensional modeling through the lens of physics.
+*   **Key Concepts:** **Gibbs energy models**, maximum entropy principles, and **Markov fields**.
+*   **Advanced Topics:** Phase transitions, the Ising model, and the emergence of long-range correlations from local interactions.
 
+### 2022: Information Theory
+*   **Theme:** Intrinsic information vs. parametric models.
+*   **Key Concepts:** **Fisher Information** (inference/likelihood) vs. **Shannon Entropy** (coding/compression).
+*   **Geometric Insight:** Data concentration in **typical sets**, which defines the minimum number of bits needed for encoding.
+
+### 2021: Regularity, Approximation, and Sparsity (RAS)
+*   **Theme:** The **RAP/RAS Triangle**.
+*   **Key Concepts:** The interdependence between signal **Regularity**, low-dimensional **Approximation**, and **Sparse representations**.
+*   **Applications:** Non-linear approximations and image compression standards (JPEG, JPEG2000).
+
+### 2020: Multiscale Models and CNNs
+*   **Theme:** Architectural organization of complexity.
+*   **Key Concepts:** **Scale separability** and the use of **Convolutional Neural Networks (CNNs)** to capture translation invariance.
+*   **Techniques:** Scattering Networks, which use fixed wavelet filters to prove stability against deformations.
+
+### 2019: Deep Neural Networks – How and Why?
+*   **Theme:** Mathematical analysis of deep architectures.
+*   **Key Concepts:** The **Universal Approximation Theorem** and the role of **symmetries** (invariants) in "flattening" classification boundaries.
+*   **Optimization:** Backpropagation, Stochastic Gradient Descent (SGD), and non-convex landscapes.
+
+### 2018: The Curse of High Dimensionality
+*   **Theme:** Learning in the face of high-dimensional challenges.
+*   **Key Concepts:** Overfitting, Bias-Variance trade-off, and the necessity of **regularity** (Lipschitz).
+*   **Techniques:** Introduction to Harmonic Analysis (Fourier and Wavelet transforms) and kernel methods like **SVM**.
+  
 *------ French version -------*
 
 En 2022, afin d'illustrer le cours de [Stéphane Mallat du Collège de France](https://www.college-de-france.fr/fr/chaire/stephane-mallat-sciences-des-donnees-chaire-statutaire) j'ai mis sur pieds ce petit repository que vous pouvez cloner/forker et me faire des retours.
@@ -82,6 +82,7 @@ En construction pour le grand public: petit podcast audio généré par l'IA tou
 
 Voici la thématique des cours des différentes années:
 
+- **2027**: Modèles de diffusion et multi-échelles en intelligence artificielle
 - **2025**: Génération de données en IA par transport et débruitage
 - **2024**: Apprentissage et génération par échantillonnage aléatoire
 - **2023**: Modélisation, Information et Physique Statistique
